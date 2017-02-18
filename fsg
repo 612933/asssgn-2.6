@@ -1,0 +1,67 @@
+
+
+
+a.
+
+import java.util.*;
+public class acad {
+ 
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("First number is:");
+		int a=sc.nextInt();
+		System.out.print("Second number is:");
+		int b=sc.nextInt();
+		for(int i=a+1;i<b;i++)
+		{
+		System.out.println(i);
+		}
+	}
+
+}
+
+b.
+
+import java.util.*;
+public class acad {
+ 
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+
+		for(int i=1;i<11;i++)
+		{
+		System.out.println(a+"x"+i+"="+(a*i));
+		}
+	}
+
+}
+
+c.
+
+  import java.util.*;
+public class acad {
+ static int sum(int a,int b)
+ {
+	 return a+b;
+ }
+ static int sum(int a,int b,int c)
+ {
+	 return a+b+c;
+ }
+ 
+ 
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("First number is:");
+		int a=sc.nextInt();
+		System.out.print("Second number is:");
+		int b=sc.nextInt();
+		System.out.print("Third number is:");
+		int c=sc.nextInt();
+		System.out.println("Sum is:"+sum(a,b,c));
+
+	}
+
+}
+
